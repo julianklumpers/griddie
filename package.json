@@ -1,8 +1,10 @@
 {
-  "version": "0.0.9",
+  "version": "0.1.0",
   "license": "MIT",
   "name": "@zerodp/griddie",
   "author": "Julian Klumpers",
+  "bugs": "https://github.com/julianklumpers/griddie/issues",
+  "homepage": "https://github.com/julianklumpers/griddie",
   "files": [
     "dist"
   ],
