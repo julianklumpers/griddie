@@ -1,0 +1,40 @@
+{
+  "version": "0.0.9",
+  "license": "MIT",
+  "name": "@zerodp/griddie",
+  "author": "Julian Klumpers",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/griddie.umd.js",
+  "typings": "dist/index.d.ts",
+  "module": "./dist/griddie.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/griddie.es.js",
+      "require": "./dist/griddie.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "yarn --cwd ./demo vite",
+    "build": "tsc && vite build && (yarn typings)",
+    "deploy": "run-s build && npm publish --access public",
+    "typings": "dts-bundle-generator -o ./dist/index.d.ts ./src/index.ts",
+    "serve": "yarn --cwd ./demo vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.33",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/resize-observer-browser": "^0.1.5",
+    "dts-bundle-generator": "^5.7.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typescript": "^4.2.3",
+    "vite": "^2.0.5"
+  }
+}

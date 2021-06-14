@@ -1,0 +1,37 @@
+.hr {
+  margin: 1.5rem 0 2rem 0;
+  background-color: #333;
+  height: 1px;
+  width: 100%;
+  position: relative;
+}
+
+.hr__text {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  top: -50%;
+  transform: translateY(-50%);
+}
+
+.hr--small {
+  font-size: 0.8rem;
+}
+
+.hr--left {
+  left: 2rem;
+}
+
+.hr--right {
+  right: 2rem;
+  background-color: #828282;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.topbar-nav {
+  height: 100%;
+}
+
+.nav-items {
+  line-height: 2;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item {
+  padding-left: 1rem;
+
+  &:first-child {
+    padding-left: 0;
+  }
+  & > a {
+    font-weight: normal;
+  }
+}

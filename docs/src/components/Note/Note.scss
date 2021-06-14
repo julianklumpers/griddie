@@ -1,0 +1,15 @@
+.note {
+  background-color: #fff;
+  border-left: 7px solid #828282;
+  overflow-x: auto;
+  padding-left: 1rem;
+}
+
+.note__title {
+  font-weight: bold;
+  margin-bottom: -0.6rem;
+}
+
+.note__children {
+  margin: 1rem 0;
+}

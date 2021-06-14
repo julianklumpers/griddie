@@ -1,0 +1,38 @@
+[type="radio"],
+[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #bbb;
+  background-color: #fff;
+  outline: none;
+  margin-right: 8px;
+  position: relative;
+
+  &:checked::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #828282;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+  }
+  &:checked:disabled:before {
+    background-color: #b3b3b3;
+  }
+  &:disabled:hover {
+    cursor: not-allowed;
+  }
+}
+
+.checkbox {
+  margin: 0 0 5px 0;
+  display: inline-block;
+}
+
+.checkbox__label {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}

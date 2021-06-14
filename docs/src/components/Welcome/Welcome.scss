@@ -1,0 +1,19 @@
+.welcome {
+  display: flex;
+  padding: 0;
+
+  & > a > img {
+    margin-right: 10px;
+  }
+
+  & > a > h1 {
+    width: 100%;
+  }
+}
+
+.welcome__logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2c3e50;
+}

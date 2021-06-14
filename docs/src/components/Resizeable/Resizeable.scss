@@ -1,0 +1,28 @@
+.test {
+  width: 100px;
+  height: 100px;
+  border: solid 2px blue;
+}
+
+.resize-container {
+  position: relative;
+  padding-right: 1rem;
+  user-select: none;
+
+  .drag-handle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0.8rem;
+    border-radius: 3px;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .drag-handle:hover {
+    cursor: col-resize;
+  }
+}

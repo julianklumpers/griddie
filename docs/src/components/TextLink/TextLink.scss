@@ -1,0 +1,16 @@
+.text-link {
+  color: #666;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+
+  .icon {
+    top: 3px;
+  }
+  .icon-left {
+    margin-right: 0.5rem;
+  }
+  .icon-right {
+    margin-left: 0.5rem;
+  }
+}

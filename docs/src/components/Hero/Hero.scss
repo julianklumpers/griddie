@@ -1,0 +1,15 @@
+.hero {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 100px 100px 50px 100px;
+  text-align: center;
+
+  & > h1 {
+    font-size: 3.5rem;
+  }
+
+  & > button {
+    margin: 1.5rem 0;
+  }
+}

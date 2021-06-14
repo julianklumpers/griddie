@@ -1,0 +1,16 @@
+.select {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+.select__select-box {
+  border: none;
+  padding: 4px;
+  font-weight: bold;
+  border: solid 1px #bbb;
+}

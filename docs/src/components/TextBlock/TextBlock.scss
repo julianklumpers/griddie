@@ -1,0 +1,21 @@
+.text-block {
+  padding-bottom: 2rem;
+
+  > p {
+    max-width: 60rem;
+  }
+
+  & h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 1.5rem 0 1rem 0;
+    font-weight: 700;
+
+    & > code {
+      font-size: 1rem;
+    }
+  }
+}
